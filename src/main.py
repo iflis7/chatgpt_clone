@@ -27,7 +27,7 @@ def cloning_gpt(input, history):
 block = gr.Blocks()
 
 with block:
-    gr.Markdown("""<h1><center>ChatGpt Clone "Bart version" </center></h1>""")
+    gr.Markdown("""<h1><center>ChatGpt "Bart version" </center></h1>""")
     chatbot = gr.Chatbot()
     message = gr.Textbox(placeholder="Hey I'm Bart Simpson, ask me anything!")
     state = gr.State()

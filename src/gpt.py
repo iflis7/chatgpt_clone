@@ -47,3 +47,4 @@ def get_response(prompt):
         stop=[" Me:", " Bart:"]
     )
     return response.choices[0].text
+
